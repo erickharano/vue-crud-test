@@ -1,15 +1,18 @@
 <template>
+  <MenuApp msg="Menu"/>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="Bem-vindo ao aplicativo em VueJS"/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import MenuApp from './components/MenuApp.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    MenuApp
   }
 }
 </script>
@@ -21,6 +24,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
