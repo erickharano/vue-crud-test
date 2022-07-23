@@ -21,10 +21,6 @@ class PeopleDataService {
         return http.delete(`/peoples/${id}`);
     }
 
-    deleteAll() {
-        return http.deleteAll('/peoples');
-    }
-
     findByName(name) {
         return http.get(`/peoples?name=${name}`);
     }

@@ -1,8 +1,9 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <img alt="Vue logo" src="../assets/logo.png">
+    
     <p>
-      Sistema desenvolvido em VueJS, PHP, BootStrap <br> por Erick Harano
+      Sistema desenvolvido em VueJS, NodeJS, BootStrap, Docker + MySQL <br> por Erick Harano
     </p>
   </div>
 </template>
@@ -10,9 +11,6 @@
 <script>
 export default {
   name: 'HelloWorld',
-  props: {
-    msg: String
-  },
 }
 </script>
 
