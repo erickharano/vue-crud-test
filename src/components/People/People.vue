@@ -8,7 +8,6 @@
       
       <div class="form-group">
         <label for="birth">Data de Nascimento</label>
-        <!-- <input type="tel" class="form-control" id="birth" required v-model="people.birth" name="birth" v-mask="'##/##/####'" /> -->
         <Datepicker locale="pt-br" format="dd/MM/Y" id="birth" name="birth" required v-model="people.birth"></Datepicker>
       </div>
 
@@ -44,8 +43,6 @@ import PeopleDataService from '../../services/People/PeopleDataService';
 import moment from 'moment';
 import Datepicker from '@vuepic/vue-datepicker';
 import '@vuepic/vue-datepicker/dist/main.css'
-
-
 
 export default {
   name: 'people-create',
